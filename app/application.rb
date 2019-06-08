@@ -1,5 +1,5 @@
 class Application
-puts "I am here"
+
   def call
     binding.pry
     resp=Rack::Response.new
